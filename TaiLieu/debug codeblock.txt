@@ -1,0 +1,135 @@
+Để dùng cái này thì em sẽ cần tạo project (dự án)
+Để chạy thì bấm F9
+thấy các giá trị đó không
+đợi tí anh đang thấy nó sai sai
+đây nhé
+cái này có 1 khái niệm gọi là breakpoint
+có nghĩa là nơi em muốn nó dừng lại
+như bên kia anh làm là nó có cái dấu đỏ đỏ đó
+đó
+bấm như thế để set cái nút đỏ ý
+chương trình của em sẽ dừng lại khi gặp cái đó
+anh sẽ thử debug (gỡ rối) nhá
+thực ra cái breakpoint anh chỉ dùng để nó dừng
+lần đầu tiên thôi
+để debug bấm F4 (sau khi đã set breakpoint)
+nó sẽ dừng lại cho em ở đó
+cái breakpoint ở sau phần nhập nên nó vẫn 
+sẽ bắt nhập hết trước
+nhập xong thấy nó nhảy xuống dưới r đó
+cái mũi tên vàng vàng kia sẽ cho em biết 
+mình đang ở đâu
+ơ nma em đang code cái gì đấy =))
+in ra phần tử xuất hiện nhiều nhất trong mảng ạ
+để e chạy devc cho a xem 
+ok
+tại anh thấy nó hơi vô lí thôi
+
+e cũng thấy ra ti tỉ cái a
+thấy ở cái window watch kia nó hiện cả cái
+mảng chứ
+nhiều nhiều a đấy ạ
+em khai báo có bao nhiêu phần tử thì nó có 
+bấy nhiều cái
+anh đang thắc mắc cái mảng b của em sao nó lại
+tự động = 0 hết thôi
+e k biết ạ
+hên rồi =))
+như kiểu mảng a kia nó lấy giá trị linh ta 
+linh tinh ấy
+để khai báo cả 1 mảng = 0 thì em có thể dùng
+cách này
+bản chất của cách khai báo này
+nếu như trong cái ngoặc nhọn kia em không để 
+là 0 
+thấy chứ
+nó khai báo các phần tử đầu tiên theo đúng
+thứ tự, các phần tử còn lại = 0 hết
+nên nếu trong ngoặc nhọn em để 0 thì cả mảng 
+=0
+ok? vang a
+cái mảng b của em nó đang hơi magic vì = 0 tất 
+=))
+ok tiếp tục
+để chạy dòng tiếp theo bấm F7, có 1 option nữa
+là F8 tí anh nói sau
+vì lệnh if của em được thực hiện nên nó nhảy
+vào bên trong
+để quan sát rõ hơn thì có thể thêm b[i] và b[j]
+do i = j nên cái đoạn kia của em đang ngớ ngẩn
+vcl
+sau đó nó lại nhảy lên phía trên vòng for
+if không đúng nên nó không nhảy vào
+thấy chứ? r ạ
+thường thường thế này thì đủ để em thấy mình 
+ngu ở đâu r nhỉ 
+hôm qua e lại bị sai cái if == nên tìm 2 tiếng đêm qua k thấy lỗi r sửa loạn lên
+để e sửa lại ctrinh a xem xem có đỡ ngu hơn k
+từ từ a dạy nốt cái debug đã
+khi mà gặp 1 vòng for dài như quân nguyên mà em muốn bỏ qua
+ơ cái này bị ngu =((
+ok lâu k dùng quên =))
+khi em muốn bỏ qua vòng for kia tới cái tiếp theo luôn
+nhớ bỏ cái breakpoint ở phía trên r bấm cái nút ...
+nó sẽ tự nhảy xuống phía dưới cho em
+= 0 hết nên max nó không đổi 
+mở cái chương trình số nguyên tố mà có dùng chương trình con
+lên anh hướng dẫn cách debug trong ctc ok a
+đây đc k a
+ok
+ở chỗ này
+khi gặp 1 chương trình con khác
+nếu em bấm Shift + F7 nó sẽ nhảy vào bên trong chương trình con
+bấm F7 thì không mà nhảy qua luôn... nhầm tí
+nãy anh vừa bấm shift f7 nó nhảy vào bên trong ct con đó
+ở trong phần local sẽ là các biến địa phương bên trong chương
+trình con
+vào bên trong ct con thì bấm F7 như thường
+nhớ hết dc k ?
+e se lưu cái nay lai de mamg ra ngam cuu lai
+e chay lai thi  e moi nho lau dc a
+ừ chạy thử luôn đi, cái bài đếm số kia là anh thấy em sai
+r nhá
+có cần hỗ trợ ý tưởng không?
+ý tưởng là thêm 1 mảng b[i]
+a[i] 1 2 3 2  1 4 5
+b[i] 2 2 1 -1 -1 1 1
+y tưởng e v ạ
+em nên làm thến này nè
+1 2 3 -1 -1 4 5 (khác trừ 1)
+2 2 1 0 0 1 1
+à thực ra không cần phức tạp như này nếu đề không yêu cầu
+em ghi tất cả các trường hợp bằng nhau ra 
+ví dụ như ở đây có 1 với 2 đó 
+thường thì ngta yêu cầu in ra cái có giá trị nhỏ nhất thôi
+ở đây thì là 1 (nếu như vậy em chỉ cần 1 biến max + 1 biến 
+value chứa số lần xuất hiện của phần tử max đó là xong)
+còn nếu cần nhiều lần
+em lưu 1 biến max chứa số lần xuất hiện nhiều nhất
+như trong ví dụ trên là 2
+sau đó duyệt 1 lèo mảng b nếu b[i] =2 (=max) thì in ra a[i]
+đây ạ
+ừa
+đoạn trên của em có vấn đề thoai =))
+ơ nhưng a ơi
+ví dụ nó 1 2 1 -1 1 2 3
+thì toang à a
+tùy theo đề có yêu cầu số âm hay không
+nếu có thì cách của anh k dc 
+vâng ạ, v e cứ làm cách e đc k a
+nó đúng mà, đằng nào sau này khi học cái tiên tiến hơn em sẽ
+thấy nó tù vcl thôi =))))))))
+tức là cách của e nó chạy nhiều vs lâu hơn đúng k a
+cũng đúng nma không hẳn là như kiểu duyệt trâu
+cái anh đang nhắc tới là 1 cấu trúc lưu trữ khác với mảng cơ
+nó sẽ truy xuất cái kia nhanh hơn =))
+em chưa học đâu
+nma sau khi học cái đó em sẽ thấy đám này tốn thời gian vl=))
+hí hí vâng ạ, nếu bh e sửa như này a xem có đỡ ngu hơn k nhá
+hay van ngu a
+nó đùng mà
+nhưng mà em có thể cải tiến 1 chút
+no no thấy a ngu r
+cho luon cái tim max vào bên trong này nè
+ok vaang a , não e nó thông đc tí r ạ
+tắt nhé vâng ạ cảm 
